@@ -11,29 +11,53 @@
     <title>LuisDomingos</title>
 </head>
 <body>
-    <header class="header">
-            <a class="header_inicial" href="index.html">
-                LDDG
-            </a>
-    </header>
+    <div class="contenedor_hero">
+        <div class="micarrusel fade">
+          <img src="img/carrusel2.png" style="width:100%">
+        </div>
+      
+        <div class="micarrusel  fade">
+          <img src="img/carrusel1.png" style="width:100%">
+        </div>
+      
+        <div class="micarrusel  fade">
+          <img src="img/carrusel3.png" style="width:100%">
+    
+    </div>
+        <a class="antes" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="despues" onclick="plusSlides(1)">&#10095;</a>
+    </div>        
     <nav class="navegacion">
-        <a class="nevegacion_cont" href="">
+        <a class="nevegacion_cont" href=#sobreMi onclick="highLightLastNavBarButton(this.id)">
             SOBRE MI
         </a>
-        <a class="nevegacion_cont"  href="">
+        <a class="nevegacion_cont"  href=#experiencia onclick="highLightLastNavBarButton(this.id)">
             EXPERIENCIA
         </a>
-        <a class="nevegacion_cont" href="">
+        <a class="nevegacion_cont" href=#skills onclick="highLightLastNavBarButton(this.id)">
             SKILLS
         </a>
-        <a class="nevegacion_cont" href="">
+        <a class="nevegacion_cont" href=#contactame onclick="highLightLastNavBarButton(this.id)">
             CONTACTAME
         </a>
     </nav>
-    <main class="contenedor">
-        
+
+    <main>
+        <div class="sobreMi" id="sobreMi">
+            Sobre Mi
+        </div>
+        <div class="experiencia" id="experiencia">
+            Experiencia
+        </div>
+        <div class="skills" id="skills">
+            Skills
+        </div>
+        <div class="contactame" id="contactame">
+            Contactame
+        </div>
     </main>
 
+    <script src="main.js"></script>
 
     <footer class="footer">
         <a class="footer_texto">
