@@ -1,0 +1,83 @@
+:root{
+    --primario: #858BF5;
+    --primarioOsc: #2b35fe;
+    --secundario: #BA7BFA;
+    --secundarioOsc: #7f00fe;
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrin: font-family: 'Krub', sans-serif;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/*1rem a 10 pixeles*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: var(--primarioOsc);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--negro);
+}
+
+h1, h2, h3 {
+    font-family: var(--fuentePrin);
+    color: var(--primario);
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header_inicial{
+    margin: 1rem 0;
+    font-family: var(--fuentePrin);
+    font-size: 4rem;
+    color: var(--blanco)
+
+}   
+
+.footer{
+    background-color: var(--primario);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.footer_texto{
+    font-size: 2.2rem;
+    font-family: var(--fuentePrin);
+}
+.navegacion{
+    background-color: var(--primario);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nevegacion_cont{
+    font-family: var(--fuentePrin);
+    color: var(--negro);
+    font-size: 2rem;
+}
+
