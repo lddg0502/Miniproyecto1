@@ -198,3 +198,21 @@ h1{
     line-height: 2;
     text-align: center;
 }
+@media(min-width: 760px){
+    .programas{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill_incompleto{
+    background-color: red;
+}
+.skill_completo{
+    background-color: green;
+}
